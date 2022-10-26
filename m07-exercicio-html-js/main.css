@@ -1,0 +1,59 @@
+/* COLORS 
+main: #1864ab;
+mid: #1971c2;
+
+msg-sucesso: #0ca678;
+msg-erro: #f03e3e;
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 440px;
+  margin: 70px auto;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+input,
+button {
+  display: block;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+button {
+  color: #fff;
+  background-color: #1864ab;
+  border: none;
+  cursor: pointer;
+
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #1971c2;
+}
+
+.success-message {
+  color: #fff;
+  background-color: #0ca678;
+  padding: 12px;
+  display: none;
+}
+
+.error-message {
+  color: #fff;
+  background-color: #f03e3e;
+  padding: 12px;
+  display: none;
+}
