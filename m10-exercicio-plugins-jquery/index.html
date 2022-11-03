@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Formulário de cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Formulário de cadastro</h1>
+            <span id="msg-envio">
+                mensagem!
+            </span>
+        </header>
+        <form>
+            <div class="form-campo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome">
+            </div>
+            <div class="form-campo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="xxx@xxx.com">
+            </div>
+            <div class="form-campo">
+                <label for="telefone">Telefone</label>
+                <div class="radio-button">
+                    <div>
+                        <input type="radio" id="celular" value="celular" name="tipo-telefone" checked>
+                        <label for="celular">Celular</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="fixo" value="fixo" name="tipo-telefone">
+                        <label for="fixo">Fixo</label>
+                    </div>
+                </div>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+            <div class="form-campo">
+                <label for="cpf">Cpf</label>
+                <input type="text" id="cpf" name="cpf">
+            </div>
+            <div class="form-campo">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Seu endereço">
+            </div>
+            <div class="form-campo">
+                <label for="cep">Cep</label>
+                <input type="text" id="cep" name="cep">
+            </div>
+            <button type="submit">Cadastrar</button>
+           
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/additional-methods.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

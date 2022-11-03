@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin-top: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 100vh; */
+    background-color: #022b52;
+    
+}
+
+.container{
+    max-width: 480px;
+    background-color: #f1f1f1;
+    padding: 40px 60px;
+    border-radius: 10px;
+    /* margin: 20px auto; */
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+#msg-envio{
+    display: inline-block;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* visibility: hidden; */
+    display: none;
+}
+
+.msg-sucesso{
+    background-color: #0ca678;
+}
+
+.msg-erro{
+    background-color: #c92a2a;
+}
+
+.form-campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input, button {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #1864ab;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #11599c;
+}
+
+.radio-button {
+    padding-top: 5px;
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.radio-button div{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.error{
+    font-size: 14px;
+    color: #c92a2a;
+}
